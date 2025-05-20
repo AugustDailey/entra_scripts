@@ -1,5 +1,5 @@
 # Connect to Microsoft Graph
-Connect-MgGraph -Scopes "Application.Read.All", "Directory.Read.All"
+Connect-MgGraph -Scopes "Application.Read.All", "Directory.Read.All", "Application.ReadWrite.All"
 
 # Specify the Application (App Registration) objectId
 $objectId = "REPLACE-ME"
